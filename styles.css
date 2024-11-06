@@ -1,12 +1,16 @@
 .container {
-    display: flex;
+    
     display: grid;
     grid-template-areas: "a a a a";
-    background-color: red;
+    background-color: #E8E9EB;
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
     grid-gap: 0px;
     justify-content: center;
     align-content: center;
+    margin: 0px;
+    margin-bottom: 0%;
+    padding: 100px;
+    
     
 
 }
@@ -15,12 +19,10 @@
 .canvas-div {
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: white;
     flex-basis: 100%;
     
 }
 
-.canvas-div:hover {
-    background-color: black;
-}
+
 
